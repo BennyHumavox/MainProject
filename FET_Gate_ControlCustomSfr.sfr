@@ -1,0 +1,5 @@
+[Sfr]
+sfr = "P3.INT1",	"SFR",	0xb0,	1,	base=16,	modified
+
+
+[SfrGroupInfo]

@@ -1,0 +1,28 @@
+[Sfr]
+sfr = "ADCL",	"SFR",	0xba,	1,	base=16,	modified
+sfr = "TCON",	"SFR",	0x88,	1,	base=16,	modified
+sfr = "DPS",	"SFR",	0x92,	1,	base=16,	modified
+sfr = "P1IEN",	"SFR",	0x8d,	1,	base=16,	modified
+sfr = "T1CNTL",	"SFR",	0xe2,	1,	base=16,	modified
+sfr = "T1CC0H",	"SFR",	0xdb,	1,	base=16,	modified
+sfr = "T3CTL",	"SFR",	0xcb,	1,	base=16,	modified
+sfr = "U0UCR",	"SFR",	0xc4,	1,	base=16,	modified
+sfr = "FRMFILT0",	"XData",	0x6180,	1,	base=16,	modified
+sfr = "FRMFILT1",	"XData",	0x6181,	1,	base=16,	modified
+sfr = "CCACTRL0.CCA_THR",	"XData",	0x6196,	1,	base=16,	modified
+sfr = "RXLAST_PTR",	"XData",	0x619e,	1,	base=16,	modified
+sfr = "FSCTRL",	"XData",	0x61ac,	1,	base=16,	modified
+sfr = "P2SEL.SELP2_4",	"SFR",	0xf5,	1,	base=16,	modified
+sfr = "P2SEL.SELP2_0",	"SFR",	0xf5,	1,	base=16,	modified
+sfr = "P1INP",	"SFR",	0xf6,	1,	base=16,	modified
+sfr = "P1INP.MDP1_4",	"SFR",	0xf6,	1,	base=16,	modified
+sfr = "P0DIR.DIRP0_2",	"SFR",	0xfd,	1,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "ADCL", "TCON", "DPS", "P1IEN"
+group = "Custom", "T1CNTL", "T1CC0H"
+group = "Custom", "T3CTL", "U0UCR", "FRMFILT0"
+group = "Custom", "FRMFILT1", "CCACTRL0.CCA_THR"
+group = "Custom", "RXLAST_PTR"
+group = "Custom", "FSCTRL"

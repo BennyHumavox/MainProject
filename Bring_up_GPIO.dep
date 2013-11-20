@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>936079936</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Bring_up_GPIO.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\services\sdata\sdata.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\target\CC2530EB\hal_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\single_chip\mac_csp_tx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\single_chip\mac_mcu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Bring_up_GPIO.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\include\hal_board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\high_level\mac_spec.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\single_chip\mac_mem.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\freq_sweep.r51</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2531F128.xcl</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\HEX\Bring_up_GPIO.hex</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\include\hal_assert.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Bring_up_GPIO.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\include\mac_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\include\hal_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\high_level\mac_high_level.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Bring_up_GPIO.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\target\CC2530EB\hal_board_cfg.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\huma_cc2530_defs.h</file>
+      <file>$PROJ_DIR$\tx_profiles.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\NIKE demo.pbi</file>
+      <file>$PROJ_DIR$\Broadcast_switch.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Broadcast_micro-switch.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\NIKE demo.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\mac_assert.h</file>
+      <file>$PROJ_DIR$\power_freq.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\freq_sweep.pbi</file>
+      <file>$PROJ_DIR$\NIKE demo.c</file>
+      <file>$PROJ_DIR$\huma_cc2530_func.c</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2531.h</file>
+      <file>$PROJ_DIR$\Broadcast_micro-switch.c</file>
+      <file>$PROJ_DIR$\huma_cc2530_csp_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\single_chip\mac_radio_defs.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nlxd-2e16inc.r51</file>
+      <file>$PROJ_DIR$\interrupts.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\Bring_up_GPIO.d51</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\services\saddr\saddr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\target\CC2530EB\hal_mac_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\target\CC2530EB\hal_mcu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Broadcast_switch.pbi</file>
+      <file>$PROJ_DIR$\freq_sweep.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Broadcast_micro-switch.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Bring_up_GPIO.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 20 18 40 15 2 19 34 39 7 4 6 16 14 38 1 8 3 26 12 33 21 27 36</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 30 20 18 40 15 2 19 34 39 7 4 6 16 14 38 1 8 3 26 12 33 21 27 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 37 11</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Broadcast_switch.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 20 18 40 15 2 19 34 39 7 4 6 16 14 38 1 8 3 26 12 31 33 21 27 36</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 30 20 18 40 15 2 19 34 39 7 4 6 16 14 38 1 8 3 26 12 31 33 21 27 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\NIKE demo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 20 18 40 15 2 19 34 39 7 4 6 16 14 38 1 8 3 26 12 31 33 21 27 36</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 30 20 18 40 15 2 19 34 39 7 4 6 16 14 38 1 8 3 26 12 31 33 21 27 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Broadcast_micro-switch.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 20 18 40 15 2 19 34 39 7 4 6 16 14 38 1 8 3 26 12 31 33 21 27 36</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 30 20 18 40 15 2 19 34 39 7 4 6 16 14 38 1 8 3 26 12 31 33 21 27 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Bring_up_GPIO.d51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 10 9 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\freq_sweep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 20 18 40 15 2 19 34 39 7 4 6 16 14 38 1 8 3 26 12 31 33 21 27 36</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 30 20 18 40 15 2 19 34 39 7 4 6 16 14 38 1 8 3 26 12 31 33 21 27 36</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

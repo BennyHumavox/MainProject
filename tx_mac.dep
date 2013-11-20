@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>710214450</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\target\CC2530EB\hal_board_cfg.h</file>
+      <file>$PROJ_DIR$\interrupts.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\single_chip\mac_radio_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\target\CC2530EB\hal_mcu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\high_level\mac_high_level.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$TOOLKIT_DIR$\config\devices\_generic\lnk51ew_8052.xcl</file>
+      <file>$PROJ_DIR$\huma_cc2530_csp_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\high_level\mac_spec.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\target\CC2530EB\hal_mac_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\single_chip\mac_mcu.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\tx_mac.d51</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\include\hal_defs.h</file>
+      <file>$PROJ_DIR$\tx_mac.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\single_chip\mac_csp_tx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\include\hal_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\mac_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\include\mac_api.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\tx_mac.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\include\hal_board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\single_chip\mac_mem.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\services\saddr\saddr.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nsid-1e16x01.r51</file>
+      <file>$PROJ_DIR$\huma_cc2530_func.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\services\sdata\sdata.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\target\CC2530EB\hal_types.h</file>
+      <file>$PROJ_DIR$\huma_cc2530_defs.h</file>
+      <file>$PROJ_DIR$\power_freq.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\tx_mac.pbi</file>
+      <file>$PROJ_DIR$\tx_profiles.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\tx_mac.d51</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 6 18 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\tx_mac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 26 0 3 12 25 5 2 9 8 10 19 4 17 21 24 20 14 16 15 7 29 27 1</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 23 26 0 3 12 25 5 2 9 8 10 19 4 17 21 24 20 14 16 15 7 29 27 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

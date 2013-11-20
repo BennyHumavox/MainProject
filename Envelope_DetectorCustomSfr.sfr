@@ -1,0 +1,49 @@
+[Sfr]
+sfr = "DMA0CFGH",	"SFR",	0xd5,	1,	base=16,	modified
+sfr = "P0IFG",	"SFR",	0x89,	1,	base=16,	modified
+sfr = "APCFG",	"SFR",	0xf2,	1,	base=16,	modified
+sfr = "RFERRF",	"SFR",	0xbf,	1,	base=16,	modified
+sfr = "ST1",	"SFR",	0x96,	1,	base=16,	modified
+sfr = "STLOAD",	"SFR",	0xad,	1,	base=16,	modified
+sfr = "STCC",	"XData",	0x62b0,	1,	base=16,	modified
+sfr = "OPAMPMC",	"XData",	0x61a6,	1,	base=16,	modified
+sfr = "PCON",	"SFR",	0x87,	1,	base=16,	modified
+sfr = "SLEEPCMD",	"SFR",	0xbe,	1,	base=16,	modified
+sfr = "T1CCTL1",	"SFR",	0xe6,	1,	base=16,	modified
+sfr = "T1CC2H",	"SFR",	0xdf,	1,	base=16,	modified
+sfr = "T1CC2L",	"SFR",	0xde,	1,	base=16,	modified
+sfr = "T1CC3H",	"XData",	0x62ad,	1,	base=16,	modified
+sfr = "T1CC3L",	"XData",	0x62ac,	1,	base=16,	modified
+sfr = "T1CCTL4",	"XData",	0x62a4,	1,	base=16,	modified
+sfr = "T1CC4H",	"XData",	0x62af,	1,	base=16,	modified
+sfr = "IRCTL",	"XData",	0x6281,	1,	base=16,	modified
+sfr = "T2M1",	"SFR",	0xa3,	1,	base=16,	modified
+sfr = "T2MOVF0",	"SFR",	0xa4,	1,	base=16,	modified
+sfr = "T2MOVF1",	"SFR",	0xa5,	1,	base=16,	modified
+sfr = "T2MOVF2",	"SFR",	0xa6,	1,	base=16,	modified
+sfr = "T2IRQF",	"SFR",	0xa1,	1,	base=16,	modified
+sfr = "T3CCTL0",	"SFR",	0xcc,	1,	base=16,	modified
+sfr = "T4CCTL0",	"SFR",	0xec,	1,	base=16,	modified
+sfr = "T4CC0",	"SFR",	0xed,	1,	base=16,	modified
+sfr = "WDCTL",	"SFR",	0xc9,	1,	base=16,	modified
+sfr = "FWDATA",	"XData",	0x6273,	1,	base=16,	modified
+sfr = "SRCMATCH",	"XData",	0x6182,	1,	base=16,	modified
+sfr = "SRCSHORTEN1",	"XData",	0x6184,	1,	base=16,	modified
+sfr = "SRCSHORTEN2",	"XData",	0x6185,	1,	base=16,	modified
+sfr = "SRCEXTEN2",	"XData",	0x6188,	1,	base=16,	modified
+sfr = "RXMASKCLR",	"XData",	0x618d,	1,	base=16,	modified
+sfr = "TXPOWER",	"XData",	0x6190,	1,	base=16,	modified
+sfr = "RXFIRST_PTR",	"XData",	0x619d,	1,	base=16,	modified
+sfr = "RXLAST_PTR",	"XData",	0x619e,	1,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "DMA0CFGH", "P0IFG"
+group = "Custom", "APCFG", "RFERRF", "ST1", "STLOAD", "STCC", "OPAMPMC", "PCON"
+group = "Custom", "SLEEPCMD"
+group = "Custom", "T1CCTL1", "T1CC2H", "T1CC2L", "T1CC3H", "T1CC3L", "T1CCTL4", "T1CC4H"
+group = "Custom", "IRCTL", "T2M1", "T2MOVF0", "T2MOVF1"
+group = "Custom", "T2MOVF2", "T2IRQF", "T3CCTL0", "T4CCTL0", "T4CC0"
+group = "Custom", "WDCTL", "FWDATA", "SRCMATCH", "SRCSHORTEN1", "SRCSHORTEN2", "SRCEXTEN2"
+group = "Custom", "RXMASKCLR", "TXPOWER", "RXFIRST_PTR"
+group = "Custom", "RXLAST_PTR"

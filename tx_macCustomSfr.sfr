@@ -1,0 +1,9 @@
+[Sfr]
+sfr = "DPH",	"SFR",	0x83,	1,	base=16,	modified
+sfr = "RCAP2H",	"SFR",	0xcb,	1,	base=16,	modified
+sfr = "P0",	"SFR",	0x80,	1,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "DPH"
+group = "Custom", "RCAP2H", "P0"

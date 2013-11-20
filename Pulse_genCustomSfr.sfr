@@ -1,0 +1,15 @@
+[Sfr]
+sfr = "P1",	"SFR",	0x90,	1,	base=16,	modified
+sfr = "TCON",	"SFR",	0x88,	1,	base=16,	modified
+sfr = "S0CON",	"SFR",	0x98,	1,	base=16,	modified
+sfr = "S1CON",	"SFR",	0x9b,	1,	base=16,	modified
+sfr = "P2.AD8",	"SFR",	0xa0,	1,	base=16,	modified
+sfr = "P2.AD10",	"SFR",	0xa0,	1,	base=16,	modified
+sfr = "P2.AD11",	"SFR",	0xa0,	1,	base=16,	modified
+sfr = "P2.AD15",	"SFR",	0xa0,	1,	base=16,	modified
+sfr = "P3.INT0",	"SFR",	0xb0,	1,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "P1", "TCON"
+group = "Custom", "S0CON", "S1CON"

@@ -1,0 +1,18 @@
+[Sfr]
+sfr = "S0CON",	"SFR",	0x98,	1,	base=16,	modified
+sfr = "P2INP",	"SFR",	0xf7,	1,	base=16,	modified
+sfr = "T4CCTL1",	"SFR",	0xee,	1,	base=16,	modified
+sfr = "T4CC1",	"SFR",	0xef,	1,	base=16,	modified
+sfr = "FSCAL0",	"XData",	0x61ad,	1,	base=16,	modified
+sfr = "MDMTEST0",	"XData",	0x61b8,	1,	base=16,	modified
+sfr = "RFC_OBS_CTRL1",	"XData",	0x61ec,	1,	base=16,	modified
+sfr = "CSPPROG7",	"XData",	0x61c7,	1,	base=16,	modified
+sfr = "CSPPROG10",	"XData",	0x61ca,	1,	base=16,	modified
+sfr = "CSPPROG17",	"XData",	0x61d1,	1,	base=16,	modified
+sfr = "CSPPROG19",	"XData",	0x61d3,	1,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "S0CON"
+group = "Custom", "P2INP", "T4CCTL1", "T4CC1", "FSCAL0", "MDMTEST0", "RFC_OBS_CTRL1", "CSPPROG7"
+group = "Custom", "CSPPROG10", "CSPPROG17", "CSPPROG19"

@@ -1,0 +1,38 @@
+[Sfr]
+sfr = "ADCCON2",	"SFR",	0xb5,	1,	base=16,	modified
+sfr = "ENCDI",	"SFR",	0xb1,	1,	base=16,	modified
+sfr = "ENCCS",	"SFR",	0xb3,	1,	base=16,	modified
+sfr = "P0",	"SFR",	0x80,	1,	base=16,	modified
+sfr = "IP0",	"SFR",	0xa9,	1,	base=16,	modified
+sfr = "ACC",	"SFR",	0xe0,	1,	base=16,	modified
+sfr = "DPS",	"SFR",	0x92,	1,	base=16,	modified
+sfr = "MPAGE",	"SFR",	0x93,	1,	base=16,	modified
+sfr = "DMAIRQ",	"SFR",	0xd1,	1,	base=16,	modified
+sfr = "DMA1CFGL",	"SFR",	0xd2,	1,	base=16,	modified
+sfr = "DMAARM",	"SFR",	0xd6,	1,	base=16,	modified
+sfr = "RFC_OBS_CTRL2",	"XData",	0x61ed,	1,	base=16,	modified
+sfr = "CSPPROG0",	"XData",	0x61c0,	1,	base=16,	modified
+sfr = "CSPPROG21",	"XData",	0x61d5,	1,	base=16,	modified
+sfr = "USBF0",	"XData",	0x6220,	1,	base=16,	modified
+sfr = "USBF1",	"XData",	0x6222,	1,	base=16,	modified
+sfr = "USBF4",	"XData",	0x6228,	1,	base=16,	modified
+sfr = "IEN0.ENCIE",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IEN1.P0IE",	"SFR",	0xb8,	1,	base=16,	modified
+sfr = "IEN1.T1IE",	"SFR",	0xb8,	1,	base=16,	modified
+sfr = "SRCEXTEN2",	"XData",	0x6188,	1,	base=16,	modified
+sfr = "FRMCTRL0.ENERGY_SCAN",	"XData",	0x6189,	1,	base=16,	modified
+sfr = "FRMCTRL1.PENDING_OR",	"XData",	0x618a,	1,	base=16,	modified
+sfr = "FRMCTRL1.SET_RXENMASK_ON_TX",	"XData",	0x618a,	1,	base=16,	modified
+sfr = "RXMASKCLR",	"XData",	0x618d,	1,	base=16,	modified
+sfr = "FREQCTRL",	"XData",	0x618f,	1,	base=16,	modified
+sfr = "RFC_OBS_CTRL0",	"XData",	0x61eb,	1,	base=16,	modified
+sfr = "CSPPROG12",	"XData",	0x61cc,	1,	base=16,	modified
+sfr = "FREQCTRL",	"XData",	0x618f,	1,	base=16,	modified
+sfr = "CSPPROG12",	"XData",	0x61cc,	1,	base=16,	modified
+sfr = "IEN0.ENCIE",	"SFR",	0xa8,	1,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "ADCCON2", "ENCDI", "ENCCS"
+group = "Custom", "P0"
+group = "Custom", "IP0", "ACC", "DPS", "MPAGE", "DMAIRQ", "DMA1CFGL", "DMAARM", "RFC_OBS_CTRL2", "CSPPROG0", "CSPPROG21", "USBF0", "USBF1", "USBF4"

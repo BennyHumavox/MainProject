@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>415157058</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\single_chip\mac_csp_tx.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2531.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\single_chip\mac_mcu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\mac_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\single_chip\mac_mem.h</file>
+      <file>$PROJ_DIR$\interrupts.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\high_level\mac_high_level.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\include\hal_board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\target\CC2530EB\hal_board_cfg.h</file>
+      <file>$PROJ_DIR$\tx_profiles.h</file>
+      <file>$PROJ_DIR$\USART_SPI.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\services\sdata\sdata.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\high_level\mac_spec.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\target\CC2530EB\hal_mcu.h</file>
+      <file>$PROJ_DIR$\huma_cc2530_defs.h</file>
+      <file>$PROJ_DIR$\power_freq.h</file>
+      <file>$PROJ_DIR$\huma_cc2530_csp_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\include\hal_assert.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\USART_SPI.r51</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nlxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\target\CC2530EB\hal_types.h</file>
+      <file>$PROJ_DIR$\huma_cc2530_func.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\services\saddr\saddr.h</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2531F128.xcl</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\include\mac_api.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\USART_SPI.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\include\hal_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\HEX\Working_Proj.hex</file>
+      <file>$PROJ_DIR$\Debug\Exe\Working_Proj.d51</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\mac\low_level\srf04\single_chip\mac_radio_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Texas Instruments\TIMAC-CC2530-1.4.0\Components\hal\target\CC2530EB\hal_mac_cfg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\PWM.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Working_Proj.pbd</file>
+      <file>$PROJ_DIR$\PWM.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\PWM.r51</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 29 28</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\USART_SPI.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 14 8 13 26 20 27 30 31 12 2 7 6 24 22 11 4 0 3 17 1 16 9 15 5</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 21 14 8 13 26 20 27 30 31 12 2 7 6 24 22 11 4 0 3 17 1 16 9 15 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Working_Proj.d51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 23 35 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\PWM.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 14 8 13 26 20 27 30 31 12 2 7 6 24 22 11 4 0 3 17 1 16 9 15 5</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 21 14 8 13 26 20 27 30 31 12 2 7 6 24 22 11 4 0 3 17 1 16 9 15 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

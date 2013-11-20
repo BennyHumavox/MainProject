@@ -1,0 +1,10 @@
+[Sfr]
+sfr = "IE",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "RCAP2L",	"SFR",	0xca,	1,	base=16,	modified
+sfr = "TL2",	"SFR",	0xcc,	1,	base=16,	modified
+sfr = "TCON.IT0",	"SFR",	0x88,	1,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "IE", "RCAP2L"
+group = "Custom", "TL2"

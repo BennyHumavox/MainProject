@@ -1,0 +1,60 @@
+[Sfr]
+sfr = "P1INP",	"SFR",	0xf6,	1,	base=16,	modified
+sfr = "P2INP",	"SFR",	0xf7,	1,	base=16,	modified
+sfr = "P0DIR",	"SFR",	0xfd,	1,	base=16,	modified
+sfr = "P1DIR",	"SFR",	0xfe,	1,	base=16,	modified
+sfr = "P2DIR",	"SFR",	0xff,	1,	base=16,	modified
+sfr = "PMUX",	"SFR",	0xae,	1,	base=16,	modified
+sfr = "OBSSEL0",	"XData",	0x6243,	1,	base=16,	modified
+sfr = "OBSSEL1",	"XData",	0x6244,	1,	base=16,	modified
+sfr = "OBSSEL2",	"XData",	0x6245,	1,	base=16,	modified
+sfr = "OBSSEL3",	"XData",	0x6246,	1,	base=16,	modified
+sfr = "OBSSEL4",	"XData",	0x6247,	1,	base=16,	modified
+sfr = "OBSSEL5",	"XData",	0x6248,	1,	base=16,	modified
+sfr = "MEMCTR",	"SFR",	0xc7,	1,	base=16,	modified
+sfr = "FMAP",	"SFR",	0x9f,	1,	base=16,	modified
+sfr = "RFD",	"SFR",	0xd9,	1,	base=16,	modified
+sfr = "RFIRQF0",	"SFR",	0xe9,	1,	base=16,	modified
+sfr = "RFIRQF1",	"SFR",	0x91,	1,	base=16,	modified
+sfr = "P1",	"SFR",	0x90,	1,	base=16,	modified
+sfr = "P1.P1_7",	"SFR",	0x90,	1,	base=16,	modified
+sfr = "P1.P1_6",	"SFR",	0x90,	1,	base=16,	modified
+sfr = "P1.P1_3",	"SFR",	0x90,	1,	base=16,	modified
+sfr = "P1.P1_2",	"SFR",	0x90,	1,	base=16,	modified
+sfr = "P1.P1_1",	"SFR",	0x90,	1,	base=16,	modified
+sfr = "P1.P1_0",	"SFR",	0x90,	1,	base=16,	modified
+sfr = "P2",	"SFR",	0xa0,	1,	base=16,	modified
+sfr = "P2.P2_4",	"SFR",	0xa0,	1,	base=16,	modified
+sfr = "P2.P2_3",	"SFR",	0xa0,	1,	base=16,	modified
+sfr = "P2.P2_2",	"SFR",	0xa0,	1,	base=16,	modified
+sfr = "P2.P2_1",	"SFR",	0xa0,	1,	base=16,	modified
+sfr = "IEN0",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IEN0.EA",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IEN0.STIE",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IEN0.ENCIE",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IEN0.URX1IE",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IEN0.URX0IE",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IEN0.ADCIE",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IEN0.RFERRIE",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IEN1",	"SFR",	0xb8,	1,	base=16,	modified
+sfr = "IEN1.P0IE",	"SFR",	0xb8,	1,	base=16,	modified
+sfr = "IEN1.T4IE",	"SFR",	0xb8,	1,	base=16,	modified
+sfr = "IEN1.T3IE",	"SFR",	0xb8,	1,	base=16,	modified
+sfr = "IEN1.T2IE",	"SFR",	0xb8,	1,	base=16,	modified
+sfr = "IEN1.T1IE",	"SFR",	0xb8,	1,	base=16,	modified
+sfr = "IEN2",	"SFR",	0x9a,	1,	base=16,	modified
+sfr = "IEN2.WDTIE",	"SFR",	0x9a,	1,	base=16,	modified
+sfr = "IEN2.RFIE",	"SFR",	0x9a,	1,	base=16,	modified
+sfr = "TCON",	"SFR",	0x88,	1,	base=16,	modified
+sfr = "TCON.URX0IF",	"SFR",	0x88,	1,	base=16,	modified
+sfr = "IP0",	"SFR",	0xa9,	1,	base=16,	modified
+sfr = "P2",	"SFR",	0xa0,	1,	base=16,	modified
+sfr = "IEN0",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IEN2",	"SFR",	0x9a,	1,	base=16,	modified
+sfr = "TCON",	"SFR",	0x88,	1,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "P1INP", "P2INP", "P0DIR", "P1DIR", "P2DIR", "PMUX"
+group = "Custom", "OBSSEL0", "OBSSEL1", "OBSSEL2", "OBSSEL3", "OBSSEL4", "OBSSEL5"
+group = "Custom", "MEMCTR", "FMAP", "RFD", "RFIRQF0", "RFIRQF1"

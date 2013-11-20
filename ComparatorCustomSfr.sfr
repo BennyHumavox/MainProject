@@ -1,0 +1,7 @@
+[Sfr]
+sfr = "IRCON",	"SFR",	0xc0,	1,	base=16,	modified
+sfr = "PERCFG",	"SFR",	0xf1,	1,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "IRCON", "PERCFG"
